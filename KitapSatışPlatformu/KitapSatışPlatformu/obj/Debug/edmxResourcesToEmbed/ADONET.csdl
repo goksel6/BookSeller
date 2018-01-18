@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PRODUCTSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="AUTHORS">
+    <Key>
+      <PropertyRef Name="Author_id" />
+    </Key>
+    <Property Name="Author_name" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="Author_id" Type="Int32" Nullable="false" />
+    <Property Name="Country" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="BOOK" Relationship="Self.FK__BOOK__BAuthor_id__398D8EEE" FromRole="AUTHORS" ToRole="BOOK" />
+  </EntityType>
+  <EntityType Name="BOOK">
+    <Key>
+      <PropertyRef Name="Book_id" />
+    </Key>
+    <Property Name="Book_id" Type="Int32" Nullable="false" />
+    <Property Name="Book_name" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BAuthor_id" Type="Int32" />
+    <Property Name="Class" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="AUTHORS" Relationship="Self.FK__BOOK__BAuthor_id__398D8EEE" FromRole="BOOK" ToRole="AUTHORS" />
+    <NavigationProperty Name="PUBLISHER" Relationship="Self.FK__PUBLISHER__PBook__3C69FB99" FromRole="BOOK" ToRole="PUBLISHER" />
+  </EntityType>
+  <EntityType Name="PUBLISHER">
+    <Key>
+      <PropertyRef Name="PBook_id" />
+      <PropertyRef Name="Publisher_id" />
+    </Key>
+    <Property Name="PBook_id" Type="Int32" Nullable="false" />
+    <Property Name="Publisher_id" Type="Int32" Nullable="false" />
+    <Property Name="Publisher_name" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Translator_name" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="Publishing_date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Language" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Num_of_pages" Type="Int32" Nullable="false" />
+    <Property Name="Num_of_pub" Type="Int32" Nullable="false" />
+    <Property Name="Type" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Price" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="BOOK" Relationship="Self.FK__PUBLISHER__PBook__3C69FB99" FromRole="PUBLISHER" ToRole="BOOK" />
+  </EntityType>
+  <EntityType Name="USERS">
+    <Key>
+      <PropertyRef Name="UserNames" />
+    </Key>
+    <Property Name="UserNames" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Passwords" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__BOOK__BAuthor_id__398D8EEE">
+    <End Role="AUTHORS" Type="Self.AUTHORS" Multiplicity="0..1" />
+    <End Role="BOOK" Type="Self.BOOK" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AUTHORS">
+        <PropertyRef Name="Author_id" />
+      </Principal>
+      <Dependent Role="BOOK">
+        <PropertyRef Name="BAuthor_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PUBLISHER__PBook__3C69FB99">
+    <End Role="BOOK" Type="Self.BOOK" Multiplicity="1" />
+    <End Role="PUBLISHER" Type="Self.PUBLISHER" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BOOK">
+        <PropertyRef Name="Book_id" />
+      </Principal>
+      <Dependent Role="PUBLISHER">
+        <PropertyRef Name="PBook_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PRODUCTSEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AUTHORS" EntityType="Self.AUTHORS" />
+    <EntitySet Name="BOOK" EntityType="Self.BOOK" />
+    <EntitySet Name="PUBLISHER" EntityType="Self.PUBLISHER" />
+    <EntitySet Name="USERS" EntityType="Self.USERS" />
+    <AssociationSet Name="FK__BOOK__BAuthor_id__398D8EEE" Association="Self.FK__BOOK__BAuthor_id__398D8EEE">
+      <End Role="AUTHORS" EntitySet="AUTHORS" />
+      <End Role="BOOK" EntitySet="BOOK" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PUBLISHER__PBook__3C69FB99" Association="Self.FK__PUBLISHER__PBook__3C69FB99">
+      <End Role="BOOK" EntitySet="BOOK" />
+      <End Role="PUBLISHER" EntitySet="PUBLISHER" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

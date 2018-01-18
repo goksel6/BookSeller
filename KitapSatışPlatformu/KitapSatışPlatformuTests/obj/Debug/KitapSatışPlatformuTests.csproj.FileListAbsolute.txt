@@ -1,0 +1,10 @@
+C:\Users\gokse\Desktop\PROJECTS\KitapSatışPlatformu\KitapSatışPlatformuTests\bin\Debug\KitapSatışPlatformuTests.dll
+C:\Users\gokse\Desktop\PROJECTS\KitapSatışPlatformu\KitapSatışPlatformuTests\bin\Debug\KitapSatışPlatformuTests.pdb
+C:\Users\gokse\Desktop\PROJECTS\KitapSatışPlatformu\KitapSatışPlatformuTests\bin\Debug\KitapSatışPlatformu.exe
+C:\Users\gokse\Desktop\PROJECTS\KitapSatışPlatformu\KitapSatışPlatformuTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\gokse\Desktop\PROJECTS\KitapSatışPlatformu\KitapSatışPlatformuTests\bin\Debug\EntityFramework.dll
+C:\Users\gokse\Desktop\PROJECTS\KitapSatışPlatformu\KitapSatışPlatformuTests\bin\Debug\KitapSatışPlatformu.pdb
+C:\Users\gokse\Desktop\PROJECTS\KitapSatışPlatformu\KitapSatışPlatformuTests\bin\Debug\EntityFramework.xml
+C:\Users\gokse\Desktop\PROJECTS\KitapSatışPlatformu\KitapSatışPlatformuTests\obj\Debug\KitapSatışPlatformuTests.csprojResolveAssemblyReference.cache
+C:\Users\gokse\Desktop\PROJECTS\KitapSatışPlatformu\KitapSatışPlatformuTests\obj\Debug\KitapSatışPlatformuTests.dll
+C:\Users\gokse\Desktop\PROJECTS\KitapSatışPlatformu\KitapSatışPlatformuTests\obj\Debug\KitapSatışPlatformuTests.pdb

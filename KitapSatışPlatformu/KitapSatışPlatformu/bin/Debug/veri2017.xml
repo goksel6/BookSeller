@@ -1,0 +1,39 @@
+<?xml version ="1.0" encoding = "utf-8"?>
+<kitaplar>
+
+<etiket2017>
+<kitapad>Elia ile Yolculuk</kitapad>
+<yazarad>Zulfu LIVANELI</yazarad>
+<yayineviad>Karakarga</yayineviad>
+<fiyat>11</fiyat>
+</etiket2017>
+
+<etiket2017>
+<kitapad>Sapiens</kitapad>
+<yazarad>Yuval Noah HARARI</yazarad>
+<yayineviad>Kolektif</yayineviad>
+<fiyat>22</fiyat>
+</etiket2017>
+
+<etiket2017>
+<kitapad>Kurk Mantolu Madonna</kitapad>
+<yazarad>Sabahattin ALI</yazarad>
+<yayineviad>YKY</yayineviad>
+<fiyat>16</fiyat>
+</etiket2017>
+
+<etiket2017>
+<kitapad>Simyaci</kitapad>
+<yazarad>Paulo COELHO</yazarad>
+<yayineviad>Can</yayineviad>
+<fiyat>15</fiyat>
+</etiket2017>
+
+<etiket2017>
+<kitapad>Bilinmeyen Bir Kadinin Mektubu</kitapad>
+<yazarad>Stefan Zweig</yazarad>
+<yayineviad>Is Bankasi</yayineviad>
+<fiyat>14</fiyat>
+</etiket2017>
+
+</kitaplar>

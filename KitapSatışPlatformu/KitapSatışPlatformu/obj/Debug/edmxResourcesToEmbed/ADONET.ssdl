@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PRODUCTSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AUTHORS">
+    <Key>
+      <PropertyRef Name="Author_id" />
+    </Key>
+    <Property Name="Author_name" Type="nvarchar" MaxLength="30" />
+    <Property Name="Author_id" Type="int" Nullable="false" />
+    <Property Name="Country" Type="nvarchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="BOOK">
+    <Key>
+      <PropertyRef Name="Book_id" />
+    </Key>
+    <Property Name="Book_id" Type="int" Nullable="false" />
+    <Property Name="Book_name" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="BAuthor_id" Type="int" />
+    <Property Name="Class" Type="nvarchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PUBLISHER">
+    <Key>
+      <PropertyRef Name="PBook_id" />
+      <PropertyRef Name="Publisher_id" />
+    </Key>
+    <Property Name="PBook_id" Type="int" Nullable="false" />
+    <Property Name="Publisher_id" Type="int" Nullable="false" />
+    <Property Name="Publisher_name" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="Translator_name" Type="nvarchar" MaxLength="30" />
+    <Property Name="Publishing_date" Type="date" Nullable="false" />
+    <Property Name="Language" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="Num_of_pages" Type="int" Nullable="false" />
+    <Property Name="Num_of_pub" Type="int" Nullable="false" />
+    <Property Name="Type" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="Price" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="USERS">
+    <Key>
+      <PropertyRef Name="UserNames" />
+    </Key>
+    <Property Name="UserNames" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="Passwords" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__BOOK__BAuthor_id__398D8EEE">
+    <End Role="AUTHORS" Type="Self.AUTHORS" Multiplicity="0..1" />
+    <End Role="BOOK" Type="Self.BOOK" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AUTHORS">
+        <PropertyRef Name="Author_id" />
+      </Principal>
+      <Dependent Role="BOOK">
+        <PropertyRef Name="BAuthor_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PUBLISHER__PBook__3C69FB99">
+    <End Role="BOOK" Type="Self.BOOK" Multiplicity="1" />
+    <End Role="PUBLISHER" Type="Self.PUBLISHER" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BOOK">
+        <PropertyRef Name="Book_id" />
+      </Principal>
+      <Dependent Role="PUBLISHER">
+        <PropertyRef Name="PBook_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PRODUCTSModelStoreContainer">
+    <EntitySet Name="AUTHORS" EntityType="Self.AUTHORS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BOOK" EntityType="Self.BOOK" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PUBLISHER" EntityType="Self.PUBLISHER" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="USERS" EntityType="Self.USERS" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__BOOK__BAuthor_id__398D8EEE" Association="Self.FK__BOOK__BAuthor_id__398D8EEE">
+      <End Role="AUTHORS" EntitySet="AUTHORS" />
+      <End Role="BOOK" EntitySet="BOOK" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PUBLISHER__PBook__3C69FB99" Association="Self.FK__PUBLISHER__PBook__3C69FB99">
+      <End Role="BOOK" EntitySet="BOOK" />
+      <End Role="PUBLISHER" EntitySet="PUBLISHER" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

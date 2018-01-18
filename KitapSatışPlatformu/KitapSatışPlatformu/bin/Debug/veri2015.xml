@@ -1,0 +1,39 @@
+<?xml version ="1.0" encoding = "utf-8"?>
+<kitaplar>
+
+<etiket2015>
+<kitapad>Bogurtlen Kisi</kitapad>
+<yazarad>Sarah JIO</yazarad>
+<yayineviad>Arkadya</yayineviad>
+<fiyat>23</fiyat>
+</etiket2015>
+
+<etiket2015>
+<kitapad>Elif Gibi Sevmek</kitapad>
+<yazarad>Hikmet Anil OZTEKIN</yazarad>
+<yayineviad>YKY</yayineviad>
+<fiyat>19</fiyat>
+</etiket2015>
+
+<etiket2015>
+<kitapad>Kafamda Bir Tuhaflik</kitapad>
+<yazarad>Orhan PAMUK</yazarad>
+<yayineviad>YKY</yayineviad>
+<fiyat>20</fiyat>
+</etiket2015>
+
+<etiket2015>
+<kitapad>Gunduz Sefasi</kitapad>
+<yazarad>Sarah JIO</yazarad>
+<yayineviad>Arkadya</yayineviad>
+<fiyat>25</fiyat>
+</etiket2015>
+
+<etiket2015>
+<kitapad>Fi</kitapad>
+<yazarad>Azra KOHEN</yazarad>
+<yayineviad>Akilah</yayineviad>
+<fiyat>27</fiyat>
+</etiket2015>
+
+</kitaplar>

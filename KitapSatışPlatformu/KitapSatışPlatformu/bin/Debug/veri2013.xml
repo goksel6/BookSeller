@@ -1,0 +1,39 @@
+<?xml version ="1.0" encoding = "utf-8"?>
+<kitaplar>
+
+<etiket2013>
+<kitapad>Karanligin Elli Tonu</kitapad>
+<yazarad>E.L. JAMES</yazarad>
+<yayineviad>Pegasus</yayineviad>
+<fiyat>28</fiyat>
+</etiket2013>
+
+<etiket2013>
+<kitapad>Heba</kitapad>
+<yazarad>Hasan Ali TOPTOZ</yazarad>
+<yayineviad>Iletisim</yayineviad>
+<fiyat>22</fiyat>
+</etiket2013>
+
+<etiket2013>
+<kitapad>Paha</kitapad>
+<yazarad>Hakan GUNDAY</yazarad>
+<yayineviad>DK</yayineviad>
+<fiyat>20</fiyat>
+</etiket2013>
+
+<etiket2013>
+<kitapad>Aile Cay Bahcesi</kitapad>
+<yazarad>Yekta KOPAN</yazarad>
+<yayineviad>Can</yayineviad>
+<fiyat>18</fiyat>
+</etiket2013>
+
+<etiket2013>
+<kitapad>Ciplak ve Yalniz</kitapad>
+<yazarad>Hamdi KOC</yazarad>
+<yayineviad>DK</yayineviad>
+<fiyat>19</fiyat>
+</etiket2013>
+
+</kitaplar>

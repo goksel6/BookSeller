@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PRODUCTSModelStoreContainer" CdmEntityContainer="PRODUCTSEntities">
+    <EntitySetMapping Name="AUTHORS">
+      <EntityTypeMapping TypeName="PRODUCTSModel.AUTHORS">
+        <MappingFragment StoreEntitySet="AUTHORS">
+          <ScalarProperty Name="Author_name" ColumnName="Author_name" />
+          <ScalarProperty Name="Author_id" ColumnName="Author_id" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BOOK">
+      <EntityTypeMapping TypeName="PRODUCTSModel.BOOK">
+        <MappingFragment StoreEntitySet="BOOK">
+          <ScalarProperty Name="Book_id" ColumnName="Book_id" />
+          <ScalarProperty Name="Book_name" ColumnName="Book_name" />
+          <ScalarProperty Name="BAuthor_id" ColumnName="BAuthor_id" />
+          <ScalarProperty Name="Class" ColumnName="Class" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PUBLISHER">
+      <EntityTypeMapping TypeName="PRODUCTSModel.PUBLISHER">
+        <MappingFragment StoreEntitySet="PUBLISHER">
+          <ScalarProperty Name="PBook_id" ColumnName="PBook_id" />
+          <ScalarProperty Name="Publisher_id" ColumnName="Publisher_id" />
+          <ScalarProperty Name="Publisher_name" ColumnName="Publisher_name" />
+          <ScalarProperty Name="Translator_name" ColumnName="Translator_name" />
+          <ScalarProperty Name="Publishing_date" ColumnName="Publishing_date" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+          <ScalarProperty Name="Num_of_pages" ColumnName="Num_of_pages" />
+          <ScalarProperty Name="Num_of_pub" ColumnName="Num_of_pub" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USERS">
+      <EntityTypeMapping TypeName="PRODUCTSModel.USERS">
+        <MappingFragment StoreEntitySet="USERS">
+          <ScalarProperty Name="UserNames" ColumnName="UserNames" />
+          <ScalarProperty Name="Passwords" ColumnName="Passwords" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

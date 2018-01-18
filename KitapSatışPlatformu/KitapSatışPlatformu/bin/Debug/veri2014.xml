@@ -1,0 +1,39 @@
+<?xml version ="1.0" encoding = "utf-8"?>
+<kitaplar>
+
+<etiket2014>
+<kitapad>Yuzyillik Yalnizlik</kitapad>
+<yazarad>Gabriel Garcio MARQUEZ</yazarad>
+<yayineviad>Can</yayineviad>
+<fiyat>15</fiyat>
+</etiket2014>
+
+<etiket2014>
+<kitapad>Bir Psikiyatristin Gizli Defteri</kitapad>
+<yazarad>Gary SMALL</yazarad>
+<yayineviad>NTV</yayineviad>
+<fiyat>21</fiyat>
+</etiket2014>
+
+<etiket2014>
+<kitapad>Kirmizi Pazartesi</kitapad>
+<yazarad>Gabriel Garcio MARQUEZ</yazarad>
+<yayineviad>Can</yayineviad>
+<fiyat>14</fiyat>
+</etiket2014>
+
+<etiket2014>
+<kitapad>Ilk Ask</kitapad>
+<yazarad>Jhon GREEN</yazarad>
+<yayineviad>Pegasus</yayineviad>
+<fiyat>26</fiyat>
+</etiket2014>
+
+<etiket2014>
+<kitapad>Aylak Adam</kitapad>
+<yazarad>Yusuf ATILGAN</yazarad>
+<yayineviad>Yapi Kredi</yayineviad>
+<fiyat>18</fiyat>
+</etiket2014>
+
+</kitaplar>

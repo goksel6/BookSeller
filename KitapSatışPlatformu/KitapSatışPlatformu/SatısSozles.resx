@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>
+1.	18 yaşından küçük kişiler Arkhe'ten alışveriş yapamaz. Arkhe.com çocuklara yönelik ürünler satışa sunmaktadır; ancak bunları yetişkinlere satmaktadır.
+2.	Arkhe'ten kredi kartı (Visa, MasterCard) ya da banka havalesi ile alışveriş yapılabilir. Bir hafta içinde havalesi yapılmayan siparişler iptal edilir. Ödemeli gönderi ya da posta çeki gibi belirtilmeyen ödeme yöntemleri kabul edilmez.
+3.	Arkhe tüm siparişlerinizi, yasaların gerektirdiği şekilde irsaliyeli fatura eşliğinde teslim edecektir. Hediye paketleri sevk irsaliyesi ile gönderilecek; fatura, bilahare fatura adresine postalanacaktır. Yapılan alışverişlerdeki tüm fiyatlar TL olarak ifade edilmiştir.
+4.	Sözleşmenin imzalandığı tarihte var olmayan ve ön görülmeyen, tarafların kontrolleri dışında gelişen, ortaya çıkmasıyla taraflardan birinin ya da her ikisinin de sözleşme ile yüklendikleri borç ve sorumluluklarını kısmen ya da tamamen yerine getirmelerini ya da bunları zamanında yerine getirmelerini imkansızlaştıran haller, mücbir sebep (Tabii afet, savaş, terör, ayaklanma, mevzuat hükümleri, el koyma veya grev, lokavt, üretim ve iletişim tesislerinde önemli mahiyette arıza, hava muhalefeti ve benzeri hallerde) olarak kabul edilecektir. Mücbir sebep ile sözleşme konusu ürünün/ürünlerin süresi içinde teslim edilememesi halinde durumu Arkhe 3 (üç) gün içinde bildirecek olup, bu takdirde siparişin iptal edilmesi, sözleşmeya konu ürünün/ürünlerin varsa emsali ile değiştirilmesi ve/veya teslimat süresinin engelleyici durumun ortadan kalkmasına kadar ertelenmesi haklarından biri kullanabilir. Siparişin iptal edilmesi halinde ödenen tutar 14 (on dört) gün içinde Arkhe tarafından iade edilecektir.
+5.	Arkhe sattığı yüzbinlerce ürün için tüm sanal alışveriş siteleri gibi stok tutmamaktadır. Ürünleri müşterilerinin siparişlerine göre tedarik etmektedir. Tüm ürünler için listeler her gün güncellense de sipariş verilen bazı ürünler tedarikçi kuruluşaların stoklarında tükenmiş olabilir. Böyle durumlarda ilgili bölümümüz tarafından size e-posta ile bilgi verilir ve ürün bedeli kartınıza iade edilir. 
+Eğer siparişinizi banka havalesi seçeneğini seçerek verdiyseniz, ürünlerin bulunamama durumunda sadece ürün bedelleri iade edilir. Bankalar tarafından uygulanan havale masrafları ile Arkhe' in bir ilgisi yoktur. O yüzden havale ödemelerinizi bankaların internet şubeleri ve ATM'ler üzerinden yapmanızı öneririz.
+6.	Tahsilatı yapılmış bir siparişin teslimatı Türkiye içindeyse Yurtiçi Kargo ve PTS Express ile Türkiye dışındaysa PTS Expres ile yapılır. Kargo hakkında detaylı bilgiyi aşağıda bulabilirsiniz.
+7.	Paketlerinizin, alışverişiniz sırasında size belirtilen süreler içinde teslim edilmemesi durumunda bilgi@Arkhe.com'a e-posta gönderebilirsiniz. Kargo Şirketi tarafımızdan ya da müşteri tarafından aranarak paket takibi yapılabilir. Paket teslim alındıktan sonra kargo firmasının görevini layıkıyla yaptığı kabul edilmiş sayılır. Bu yüzden; Teslimat sırasında hasarlı olduğunu tespit edilen paketler kabul edilmeyip tutanak tutturulmalıdır. Daha sonra, tutanak +90 212 997 01 94 numaralı telefona fakslanıp durum bilgi@Arkhe.com'a bir e-posta aracılığıyla bildirilmelidir. Arkhe, ürünü yeniden temin edip, en kısa zamanda teslimatın tekrarlanmasını sağlayacaktır.
+8.	Hiçbir hukuki ve cezai sorumluluk üstlenmeksizin ve hiçbir gerekçe göstermeksizin teslim aldığız veya sözleşmenin imzalandığı tarihten itibaren ondört gün içerisinde cayma hakkı kullanılamayacak ürünler hariç olarak ürünü/ürünleri sözleşmeden cayarak iade edebilirsiniz. Cayma hakkının kullanılması için bu süre içinde ürünü/ürünleri işleyişine, teknik özelliklerine ve kullanım talimatlarına uygun bir şekilde kullanmış olmak kaydıyla Arkhe'e aşağıda detayları belirtilen iletişim bilgileri aracılığı ile yazılı olarak bildirimde bulunulması gerekmektedir. Bu bildirimin Arkhe'e ulaşmasını takiben bildirimin ulaştığına ilişkin teyit bilgisi tarafınızla paylaşılacak ve bildirimin ulaşma tarihini takiben de 14 (ondört) gün içinde cayma hakkına konu ürünün/ürünlerin bedeli ödeme şekline uygun bir şekilde tarafınıza iade edilecektir. Cayma hakkının kullanılması halinde, ürünün/ürünlerin vergi mevzuatı gereği fatura aslının ibrazı ile beraber teslimatı gerçekleştiren kargo firması aracılığı ile iadesi zorunludur. Ancak, müşteri tarafından fatura aslının gönderilmemesi halinde KDV ve varsa sair yasal kesintiler tarafınıza iade edilemez. 
+Ürün iadesi hakkında detaylı bilgiyi aşağıda bulabilirsiniz.
+9.	Kredi kartı bilgileriniz sistemde kayıtlı olarak tutulmamaktadır. Sipariş verdikten sonra, ödeme bilgileri ekranında kredi kartı bilgisini girdikten sonra sağ satırdaki kaydet kutusunu işaretlerseniz, kart bilgileri sistemimize kaydedilir, sonraki siparişlerinizde bu kartı tekrar görüntüleyebilir, sipariş sürecini hızlandırabilirsiniz. Kayıtlı kartınızı silmek ya da bilgilerini güncellemek istediğinizde Üyelik Bilgilerim sayfasından Kredi Kartlarım bölümüne ulaşarak işlemleri gerçekleştirebilirsiniz. Bu ekranlarda da kart numaranız güvenliğiniz açısından gizlenmiştir.
+10.	Arkhe ithalat ve ihracat mevzuatlarındaki kısıtlardan ötürü şu aşamada yurtdışına siber market dükkanı ürünlerini siparişi almamaktadır.
+11.	Sözleşme konusu ürün/ürünler, yasa ve yönetmeliklerle belirlenen siparişin SATICI'ya ulaşmasını takip eden, yasal 30 günlük süreyi aşmamak koşulu ile her bir ürün için ALICI'nın yerleşim yerinin uzaklığına bağlı olarak işbu 30 (otuz) günlük süre içinde ALICI veya gösterdiği adresteki kişi/kuruluşa teslim edilir. Şu kadar ki, ön sipariş ürününde(lerinde) işbu 30 günlük yasal süre ilgili ürüne ait satış sayfasında ilan edilen satış tarihinden itibaren başlayacak olup, işbu satış tarihinde tedarikçi firma kaynaklı gecikmeler yaşanabilir. İşbu halde SATICI ALICI'yı öncesinde yazılı olarak bilgilendirecektir. Bu halde de ALICI siparişin iptal edilmesini veya teslimat süresini bekleyerek siparişe konu ürün(lerin) teslim edilmesi haklarından birini kullanabilir. ALICI'nın siparişi iptal etmesi halinde ödediği tutar 14 (on dört) gün içinde kendisine nakden ve defaten ödenir. E-kitap satışlarında ürün(ler) yasa ve yönetmeliklerle belirlenen siparişin SATICI'ya ulaşmasını takip eden yasal 30 günlük süreyi aşmamak koşulu ile işbu 30 günlük süre içinde ALICI tarafından bildirilen e-mail adresine teslim edilir.
+12.	www.Arkhe.com internet sitesinde, sözleşme konusunu oluşturan tüm ürünlerin esaslı nitelikleri, özellikleri, KDV dahil satış fiyatı, ödeme ve teslimat şekli ile tedarik ve teslim sürelerine ilişkin esaslı bilgileri okuyup ürünler hakkında tüm bilgilere sahip olduğunuzu ve bu bilgiler doğrultusunda elektronik ortamda satınalmaya ilişkin onayı verdiğinizi kabul ve beyan etmektesiniz. www.Arkhe.com'dan alışveriş yapan kişi yukarıdaki tüm maddeleri elektronik ortamda okuyup, kabul edilip, teyit etmiş sayılır. Bu sözleşmede düzenlenmemiş hususlarda 6502 sayılı Tüketicinin Korunması Hakkında Kanun hükümleri uygulanır.
+________________________________________
+
+KARGO
+
+1. Kargo seçenekleri sipariş sırasında müşterilerimize sunulmaktadır. 
+2. Arkhe gerek duyduğunda daha hızlı gönderimde bulunmak amacıyla kargo firması değişikliği yapabilir. Arkhe'te müşteri memnuniyeti nedeniyle yapılan değişik için ek bir ücret talep edilmez. 
+3. Ortalama teslim süreleri: Özel Kargo Şirketi'yle tahmini 1-5 gün ve her halükarda 30 günlük yasal süre içerisinde teslimat yapılmaktadır. 
+
+Türkiye dışına 
+1. Arkhe'ten yapılan Türkiye dışı gönderiler özel kurye firması PTS Expres (15-21 gün) aracılığıyla gerçekleştirilir. 
+2. PTS Worldwide Express ile yapılan gönderiler paketin değeri kadar sigortalıdır. 
+
+Kargo bedellerinin belirlenmesi:
+Kargo bedelini belirleyen üç parametre vardır.
+1. Seçtiğiniz ürünlerin toplam ağırlığı. (Her bir ürünün veritabanında kayıtlı olan ağırlığı kullanılarak toplam ağırlık sipariş sürecinde otomatik olarak hesaplanmaktadır.) 
+2. Paketinizin teslim edileceği yer. (Türkiye içi ve Türkiye dışı gönderi tarifeleri farklıdır. Türkiye dışı gönderilerde ülkelere göre tarife değişmektedir.) 
+3. Türkiye içi gönderilerde seçtiğiniz teslimatçı firma. 
+
+Sipariş sürecinde kargo firması ve ücret seçenekleri adres aşamasından sonra kargo sayfasında bildirilmektedir. Şu kadar ki, satış anında yürüttüğümüz ve/veya www.Arkhe.com'da şartlarını ilan ettiğimiz kampanyaların sonucuna bağlı olarak söz konusu kargo ücretinin tamamını ya da bir kısmını tarafınıza yansıtmayabiliriz.
+
+________________________________________
+
+İADE
+
+Arkhe iade işlemlerinde 6502 sayılı Tüketicinin Koruması Hakkında Kanunu çerçevesinde hareket eder. 
+
+Hiçbir gerekçe belirtmeksizin yapabileceğiniz ürün iadesi ve koşulları:
+
+Arkhe' ten satın aldığınız her ürünü/ürünleri -cayma hakkı kullanılamayacak ürünler hariç olarak- , teslim veya sözleşmenin imzalandığı tarihinden itibaren 14 (on dört) gün içerisinde ürün hasarlı olmasa dahi -hiçbir gerekçe belirtmeksizin- iade edebilirsiniz.
+İade için, satın aldığınız ürünün işleyişine, teknik özelliklerine ve kullanım talimatlarına uygun bir şekilde kullanmış olması tahrip edilmemiş ve bozulmamış olması ve cayma hakkına dair yazılı bildirimde bulunulması gerekmektedir. 
+Bu bildirimin Arkhe'e ulaşmasını takiben bildirimin ulaştığına ilişkin teyit bilgisi tarafınızla paylaşılacak ve bildirimin ulaşma tarihini takiben de 14 (ondört) gün içinde cayma hakkına konu ürünün/ürünlerin bedeli ödeme şekline uygun bir şekilde tarafınıza iade edilecektir.
+İade edilecek ürünlerin mutlaka ürün faturasının orijinali ile birlikte teslimi gerekmektedir. Cayma hakkının kullanılması halinde, fatura aslının iadesi zorunludur. Ancak, fatura aslının gönderilmemesi halinde KDV ve varsa sair yasal kesintiler iade edilemeyecektir. 
+
+Aşağıda detayları belirtilen ürünler cayma hakkı kapsamında iade edilemez;
+
+
+•	Fiyatı finansal piyasalardaki dalgalanmalara bağlı olarak değişen ve satıcı veya sağlayıcının kontrolünde olmayan mal veya hizmetlere ilişkin sözleşmeler.
+•	Tüketicinin istekleri veya kişisel ihtiyaçları doğrultusunda hazırlanan mallara ilişkin sözleşmeler.
+•	Çabuk bozulabilen veya son kullanma tarihi geçebilecek malların teslimine ilişkin sözleşmeler.
+•	Tesliminden sonra ambalaj, bant, mühür, paket gibi koruyucu unsurları açılmış olan mallardan; iadesi sağlık ve hijyen açısından uygun olmayanların teslimine ilişkin sözleşmeler.
+•	Tesliminden sonra başka ürünlerle karışan ve doğası gereği ayrıştırılması mümkün olmayan mallara ilişkin sözleşmeler.
+•	Malın tesliminden sonra ambalaj, bant, mühür, paket gibi koruyucu unsurları açılmış olması halinde maddi ortamda sunulan kitap, dijital içerik ve bilgisayar sarf malzemelerine ilişkin sözleşmeler.
+•	Abonelik sözleşmesi kapsamında sağlananlar dışında, gazete ve dergi gibi süreli yayınların teslimine ilişkin sözleşmeler.
+•	Belirli bir tarihte veya dönemde yapılması gereken, konaklama, eşya taşıma, araba kiralama, yiyecek-içecek tedariki ve eğlence veya dinlenme amacıyla yapılan boş zamanın değerlendirilmesine ilişkin sözleşmeler.
+•	Elektronik ortamda anında ifa edilen hizmetler veya tüketiciye anında teslim edilen gayrimaddi mallara ilişkin sözleşmeler.
+•	Cayma hakkı süresi sona ermeden önce, tüketicinin onayı ile ifasına başlanan hizmetlere ilişkin sözleşmeler.
+İadesi yapılacak ürün/ürünler teslimatın yapıldığı Arkhe' in çalıştığı kargo şirketleri aracılığı ile tarafımıza ulaştırılmalıdır.
+Ürün, paket koruyucu bir ambalaj içerisine yerleştirilmeli ve kargo şirketinin etiketi ürün ambalajının üzerinde bulunmamalıdır. Ürünün ambalajında meydana gelecek olan deformasyon, ürünün tekrar satılmasını engelleyen durumlar arasında yer almaktadır.
+
+Arızalı/hasarlı/bozuk (ayıplı) ürünlere ilişkin iade koşulları
+
+
+•	Ambalajında, etiketinde, tanıtma ve kullanma kılavuzunda ya da reklâm ve ilanlarında yer alan veya satıcı tarafından bildirilen veya standardında veya teknik düzenlemesinde tespit edilen nitelik veya niteliği etkileyen niceliğine aykırı olan ya da tahsis veya kullanım amacı bakımından değerini veya tüketicinin ondan beklediği faydaları azaltan veya ortadan kaldıran maddi, hukuki veya ekonomik eksiklikler içeren mallar, ayıplı mal olarak kabul edilmektedir.
+•	Tüketici, malın teslimi tarihinden itibaren 6 (altı) ay içerisinde ayıbı satıcıya bildirmekle yükümlüdür.
+•	Tüketici bu durumda, satılanı geri vermeye hazır olduğunu bildirerek sözleşmeden dönme,satılanı alıkoyup ayıp oranında satış bedelinden indirim isteme, aşırı bir masraf gerektirmediği takdirde, bütün masrafları satıcıya ait olmak üzere satılanın ücretsiz onarılmasını isteme ve imkân varsa, satılanın ayıpsız bir misli ile değiştirilmesini isteme haklarına sahiptir.
+•	Arkhe'ten satın aldığınız Garanti Belgesi Yönetmeliği'ne tabii olan tüm sanayi malları, imalatçı veya ithalatçı firmanın garantisi altındadır.
+•	Satın aldığınız ürünün ayıplı olması halinde durumu teslim tarihinden itibaren en geç 6 (altı) ay içerisinde yazılı olarak Arkhe'e bildiriniz.
+•	Size en yakın yetkili teknik servise giderek ürününüzün tamirini gerçekleştirebilir ve bu sayede zaman tasarrufu da sağlayabilirsiniz. (Ürüne ilişkin garanti belgesi ve tanıtma ve kullanma kılavuzunu inceleyiniz.)
+
+Satın aldığınız ürünün ayıplı olduğu gerekçesi ile Arkhe'e ulaştırılması halinde aşağıda belirtilen işlemler uygulanmaktadır:
+
+
+•	Ayıplı olduğu gerekçesi ile Arkhe' e ulaştırılan ürünler, ulaştığı tarihten itibaren en geç 3 iş günü içerisinde işleme alınmaktadır.
+•	Ayıplı olduğu gerekçesi ile gönderilen ürünler sorumlusu tarafından teslim alınmakta ve şirket kayıtlarına işlenmektedir.
+•	Ürün ile ilgili hata tespit edilmekte, ürünün bir teknoloji ürünü olması ve belirgin bir hatasının mevcut bulunması halinde ise teknoloji dükkanı yetkilileri tarafından test edilmektedir.
+•	Ayıplı olduğu gerekçesi ile gönderilen ürünler, Arkhe' e ulaştığı tarihten en geç 3 iş günü sonra yetkili teknik servise veya teminci şirkete gönderilmektedir. Ürünün yetkili teknik serviste veya teminci şirkette kaldığı süre ürünün özelliklerine göre değişim gösterebilmektedir. Ancak Garanti Belgesi Yönetmeliği'ne tabii üründe/ürünlerde azami tamir süresi 20 iş günüdür.
+•	Ürüne ilişkin yetkili teknik servis veya tedarikçi kuruluştan gelen bilgi ve sonuçlar (tamir veya değişim) telefon veya e-posta ile tarafınıza iletilmektedir.
+•	Yetkili teknik serviste geçen sürenin sonunda tamir edilen ürün tarafınıza tamir edilmiş hali ile gönderilmekte, iadesinin uygun olacağı yönünde görüş belirtilen ürün ise talebiniz kapsamında birebir yenisi ile değiştirilmekte veya bedel iadesi yapılmaktadır. Bedel iadesinin talep edilmesi halinde ayıplı ürün bedeli 14 gün içerisinde ödeme şekline uygun olarak iade edilmektedir. Şu kadar ki, kullanıcı hatası sonucu ayıplı hale geldiği tespit edilen ürün/ürünler için bu hakların kullanımı söz konusu olmayacaktır.
+
+Ayıplı olduğu gerekçesi ile Arkhe' e yapılan ürün gönderilerinin aşağıda belirtilen şartları taşıması gerekmektedir: 
+
+
+•	Faturanın arka kısmında yer alan ürün iade bölümü eksiksiz olarak doldurulmalıdır.
+•	Üründeki arıza veya sorun net bir şekilde anlatılmalıdır.
+•	Ürünün, tüm aksesuarları ve orijinal kutusu ile birlikte gönderilmesi gerekmektedir.
+•	Ürün, paket koruyucu uygun bir ambalaj içerisine yerleştirilmeli ve kargo şirketinin etiketi ürün ambalajının üzerinde bulunmamalıdır.
+•	Ürün, Arkhe' in çalıştığı teslimatı gerçekleştiren kargo şirketleri aracılığı ile tarafımıza ulaştırılmalıdır. Bu ürüne/ürünlere ait kargo ücreti Arkhe tarafından karşılanacaktır.
+
+Sanayi mallarına ilişkin garanti belgesi ve süresi
+
+İmalatçı veya ithalatçılar, ithal ettikleri veya ürettikleri sanayi malları için Gümrük ve Ticaret Bakanlığı tarafından onaylı garanti belgesi düzenlemek zorundadırlar. Garanti süresi, malın teslim tarihinden itibaren başlar ve asgari iki yıldır. 
+Arkhe'ten satın aldığınız Garanti Belgesi Yönetmeliği'ne tabii olan tüm sanayi malları, imalatçı veya ithalatçı firmanın garantisi altındadır. 
+Lütfen satın aldığınız ürünün, fatura tarih ve sayısını da içeren garanti belgesini kontrol ediniz. 
+
+Sanayi mallarına ilişkin tanıtma ve kullanma kılavuzu
+
+Yurt içinde üretilen veya ithal edilen sanayi mallarının tanıtım, kullanım, bakım ve basit onarımına ilişkin Türkçe kılavuzla ve gerektiğinde uluslararası sembol ve işaretleri kapsayan etiket ile satılması zorunludur.
+
+- Lütfen satın aldığınız sanayi ürününe ilişkin tanıtma ve kullanma kılavuzunu kontrol ediniz.
+- Ürünün, tanıtma ve kullanma kılavuzunda yer alan hususlara aykırı kullanılmasından kaynaklanan arızalar garanti kapsamı dışında kalmaktadır.
+
+Teslimattan kaynaklanan problemler 
+
+Özel Kargo Firması ile yapılan gönderilerde, taşıma sırasında paketin zarar görmesi durumunda zarar Arkhe tarafından telafi edilir. (Yurtdışı Posta Servisi sigortasız gönderi yaptığı için bu teminat söz konusu değildir) 
+
+Zarar görmüş paket durumunda; 
+
+
+•	Zarar görmüş paketler teslim alınmayarak teslimatçı firmaya tutanak tutturulmalıdır.
+•	Eğer teslimatçı firma yetkilisi paketin hasarlı olmadığını düşünüyorsa, orada paketin açılarak ürünlerin hasarsız teslim edildiğini kontrol ettirme ve durumun yine bir tutanakla tespit edilmesini isteme hakkınız vardır.
+•	Paket tarafınızdan teslim alındıktan sonra teslimatçı firmanın görevini layıkıyla yaptığı kabul edilmiş sayılır.
+•	Paket kabul edilmemiş ve tutanak tutulmuş ise, durum, tutanağın sizde kalan kopyasıyla birlikte en kısa zamanda Arkhe'e bildirilmelidir. Arkhe en kısa sürede yeni ve sağlıklı bir teslimatın gerçekleşmesini sağlayacaktır.
+
+Size teslim edilen ürünler ilgili herhangi bir probleminiz durumunda 0850 266 06 06 numaralı telefon ya da bilgi@Arkhe.com adresinden bize ulaşabilirsiniz! 
+
+Dikkat: Siparişinizle ilgili her tür iletişiminizde mutlaka sipariş numaranızı bildiriniz. 
+
+Doğan Müzik Kitap Mağazacılık ve Pazarlama AŞ.
+Trump Towers Kule 2, Kuştepe Mahallesi Mecidiyeköy Yolu Caddesi No: 12 Kat: 30-31-32 34387 Şişli - İstanbul
+Tel: 0850 266 06 06
+Faks: +90 212 997 01 94
+E-Posta: bilgi@Arkhe.com
+•	Telif Hakları</value>
+  </data>
+</root>
